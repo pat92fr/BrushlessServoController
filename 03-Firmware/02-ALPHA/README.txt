@@ -4,7 +4,7 @@ New GUI Tool :
 - Change line 20 of SBSUtility.py
 - Launch SBSUtility.py
 
-Warling :
+Warning :
 - Do not use "round position test" and "square current test" at the moment
 
 
