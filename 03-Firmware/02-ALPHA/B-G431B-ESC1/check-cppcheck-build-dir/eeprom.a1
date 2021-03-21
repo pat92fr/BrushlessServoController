@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="2221967451">
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/GitHub/FOC/B-G431B-ESC1/Core/Inc/eeprom.h:15:19" my-argnr="1" my-argname="regs" file="C:/GitHub/FOC/B-G431B-ESC1/Core/Src/eeprom.c" line="26" col="9" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="eeprom_base_address" lineNumber="14"/>
+    <functiondecl functionName="eeprom_empty" lineNumber="19"/>
+    <functiondecl functionName="eeprom_restore" lineNumber="24"/>
+    <functiondecl functionName="eeprom_store" lineNumber="30"/>
+    <functioncall functionName="FLASH_BANK_1"/>
+    <functioncall functionName="FLASH_TYPEERASE_PAGES"/>
+    <functioncall functionName="FLASH_TYPEPROGRAM_DOUBLEWORD"/>
+    <functioncall functionName="HAL_FLASHEx_Erase"/>
+    <functioncall functionName="HAL_FLASH_GetError"/>
+    <functioncall functionName="HAL_FLASH_Lock"/>
+    <functioncall functionName="HAL_FLASH_Program"/>
+    <functioncall functionName="HAL_FLASH_Unlock"/>
+    <functioncall functionName="data"/>
+    <functioncall functionName="erase"/>
+    <functioncall functionName="error"/>
+    <functioncall functionName="for"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="index"/>
+    <functioncall functionName="memcpy"/>
+    <functioncall functionName="page_error"/>
+    <functioncall functionName="page_nb"/>
+    <functioncall functionName="regs"/>
+    <functioncall functionName="return"/>
+    <functioncall functionName="size"/>
+    <functioncall functionName="sizeof"/>
+    <functioncall functionName="start_address"/>
+    <functioncall functionName="uint64_t"/>
+  </FileInfo>
+</analyzerinfo>

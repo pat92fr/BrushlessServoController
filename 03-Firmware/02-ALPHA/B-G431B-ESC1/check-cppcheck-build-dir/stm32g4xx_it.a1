@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="1742341029">
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="NMI_Handler" lineNumber="78"/>
+    <functiondecl functionName="HardFault_Handler" lineNumber="93"/>
+    <functiondecl functionName="MemManage_Handler" lineNumber="108"/>
+    <functiondecl functionName="BusFault_Handler" lineNumber="123"/>
+    <functiondecl functionName="UsageFault_Handler" lineNumber="138"/>
+    <functiondecl functionName="SVC_Handler" lineNumber="153"/>
+    <functiondecl functionName="DebugMon_Handler" lineNumber="166"/>
+    <functiondecl functionName="PendSV_Handler" lineNumber="179"/>
+    <functiondecl functionName="SysTick_Handler" lineNumber="192"/>
+    <functiondecl functionName="DMA1_Channel1_IRQHandler" lineNumber="213"/>
+    <functiondecl functionName="DMA1_Channel2_IRQHandler" lineNumber="227"/>
+    <functiondecl functionName="DMA1_Channel3_IRQHandler" lineNumber="241"/>
+    <functiondecl functionName="DMA1_Channel4_IRQHandler" lineNumber="255"/>
+    <functiondecl functionName="ADC1_2_IRQHandler" lineNumber="269"/>
+    <functiondecl functionName="TIM4_IRQHandler" lineNumber="284"/>
+    <functiondecl functionName="USART2_IRQHandler" lineNumber="298"/>
+    <functiondecl functionName="CORDIC_IRQHandler" lineNumber="312"/>
+    <functioncall functionName="HAL_ADC_IRQHandler"/>
+    <functioncall functionName="HAL_CORDIC_IRQHandler"/>
+    <functioncall functionName="HAL_DMA_IRQHandler"/>
+    <functioncall functionName="HAL_IncTick"/>
+    <functioncall functionName="HAL_TIM_IRQHandler"/>
+    <functioncall functionName="HAL_UART_IRQHandler"/>
+    <functioncall functionName="hadc1"/>
+    <functioncall functionName="hadc2"/>
+    <functioncall functionName="hcordic"/>
+    <functioncall functionName="hdma_adc1"/>
+    <functioncall functionName="hdma_adc2"/>
+    <functioncall functionName="hdma_usart2_rx"/>
+    <functioncall functionName="hdma_usart2_tx"/>
+    <functioncall functionName="htim4"/>
+    <functioncall functionName="huart2"/>
+    <functioncall functionName="while"/>
+  </FileInfo>
+</analyzerinfo>

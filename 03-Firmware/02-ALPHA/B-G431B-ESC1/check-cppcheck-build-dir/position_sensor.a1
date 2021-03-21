@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="883614842">
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="API_AS5048A_Position_Sensor_Init" lineNumber="36"/>
+    <functiondecl functionName="API_AS5048A_Position_Sensor_It" lineNumber="46"/>
+    <functiondecl functionName="API_AS5048A_Position_Sensor_Get_Radians_Estimation" lineNumber="105"/>
+    <functiondecl functionName="API_AS5048A_Position_Sensor_Get_Radians" lineNumber="111"/>
+    <functiondecl functionName="API_AS5048A_Position_Sensor_Get_Multiturn_Radians" lineNumber="116"/>
+    <functiondecl functionName="API_AS5048A_Position_Sensor_Get_RPS" lineNumber="121"/>
+    <functiondecl functionName="API_AS5048A_Position_Sensor_Get_DPS" lineNumber="126"/>
+    <functiondecl functionName="API_AS5048A_Position_Sensor_Get_Timestamp" lineNumber="131"/>
+    <functiondecl functionName="API_AS5048A_Position_Sensor_Get_DeltaTimestamp" lineNumber="136"/>
+    <functiondecl functionName="API_AS5048A_Position_Sensor_Error" lineNumber="141"/>
+    <functiondecl functionName="API_AS5048A_Position_Sensor_Error_Counter" lineNumber="146"/>
+    <functiondecl functionName="API_AS5048A_Position_Sensor_Get_DeltaRad" lineNumber="151"/>
+    <functiondecl functionName="API_AS5048A_Position_Sensor_It_Counter" lineNumber="156"/>
+    <functioncall functionName="HAL_Delay"/>
+    <functioncall functionName="HAL_TIM_IC_Start"/>
+    <functioncall functionName="HAL_TIM_IC_Start_IT"/>
+    <functioncall functionName="TIM_CHANNEL_1"/>
+    <functioncall functionName="TIM_CHANNEL_2"/>
+    <functioncall functionName="__HAL_TIM_GET_COMPARE"/>
+    <functioncall functionName="__HAL_TIM_GET_COUNTER"/>
+    <functioncall functionName="delta_position_rad"/>
+    <functioncall functionName="delta_t_us"/>
+    <functioncall functionName="float"/>
+    <functioncall functionName="htim"/>
+    <functioncall functionName="htim6"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="last_position_rad"/>
+    <functioncall functionName="last_position_time_us"/>
+    <functioncall functionName="max_radians"/>
+    <functioncall functionName="position_sensor_htim"/>
+    <functioncall functionName="present_position_rad"/>
+    <functioncall functionName="present_time_us"/>
+    <functioncall functionName="present_velocity_rad"/>
+    <functioncall functionName="return"/>
+    <functioncall functionName="roundf"/>
+  </FileInfo>
+</analyzerinfo>

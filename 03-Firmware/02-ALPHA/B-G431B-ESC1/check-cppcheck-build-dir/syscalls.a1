@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="1446836420">
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/GitHub/FOC/B-G431B-ESC1/Core/Src/syscalls.c:98:5" my-argnr="2" my-argname="st" file="C:/GitHub/FOC/B-G431B-ESC1/Core/Src/syscalls.c" line="100" col="2" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/FOC/B-G431B-ESC1/Core/Src/syscalls.c:137:5" my-argnr="2" my-argname="st" file="C:/GitHub/FOC/B-G431B-ESC1/Core/Src/syscalls.c" line="139" col="2" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="initialise_monitor_handles" lineNumber="48"/>
+    <functiondecl functionName="_getpid" lineNumber="52"/>
+    <functiondecl functionName="_kill" lineNumber="57"/>
+    <functiondecl functionName="_exit" lineNumber="63"/>
+    <functiondecl functionName="_read" lineNumber="69"/>
+    <functiondecl functionName="_write" lineNumber="81"/>
+    <functiondecl functionName="_close" lineNumber="92"/>
+    <functiondecl functionName="_fstat" lineNumber="98"/>
+    <functiondecl functionName="_isatty" lineNumber="104"/>
+    <functiondecl functionName="_lseek" lineNumber="109"/>
+    <functiondecl functionName="_open" lineNumber="114"/>
+    <functiondecl functionName="_wait" lineNumber="120"/>
+    <functiondecl functionName="_unlink" lineNumber="126"/>
+    <functiondecl functionName="_times" lineNumber="132"/>
+    <functiondecl functionName="_stat" lineNumber="137"/>
+    <functiondecl functionName="_link" lineNumber="143"/>
+    <functiondecl functionName="_fork" lineNumber="149"/>
+    <functiondecl functionName="_execve" lineNumber="155"/>
+    <functioncall functionName="EAGAIN"/>
+    <functioncall functionName="ECHILD"/>
+    <functioncall functionName="EINVAL"/>
+    <functioncall functionName="EMLINK"/>
+    <functioncall functionName="ENOENT"/>
+    <functioncall functionName="ENOMEM"/>
+    <functioncall functionName="S_IFCHR"/>
+    <functioncall functionName="__env"/>
+    <functioncall functionName="__io_getchar"/>
+    <functioncall functionName="__io_putchar"/>
+    <functioncall functionName="_kill"/>
+    <functioncall functionName="for"/>
+    <functioncall functionName="status"/>
+    <functioncall functionName="while"/>
+  </FileInfo>
+</analyzerinfo>

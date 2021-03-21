@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="3074547346">
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/GitHub/FOC/B-G431B-ESC1/Core/Inc/pid.h:26:6" my-argnr="1" my-argname="ctx" file="C:/GitHub/FOC/B-G431B-ESC1/Core/Src/pic.c" line="15" col="2" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/FOC/B-G431B-ESC1/Core/Inc/pid.h:28:7" my-argnr="1" my-argname="ctx" file="C:/GitHub/FOC/B-G431B-ESC1/Core/Src/pic.c" line="32" col="2" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/FOC/B-G431B-ESC1/Core/Inc/pid.h:40:7" my-argnr="1" my-argname="ctx" file="C:/GitHub/FOC/B-G431B-ESC1/Core/Src/pic.c" line="66" col="2" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/FOC/B-G431B-ESC1/Core/Inc/pid.h:50:7" my-argnr="1" my-argname="ctx" file="C:/GitHub/FOC/B-G431B-ESC1/Core/Src/pic.c" line="101" col="2" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="pid_reset" lineNumber="13"/>
+    <functiondecl functionName="pid_process_antiwindup_clamp_with_ff" lineNumber="20"/>
+    <functiondecl functionName="pid_process_antiwindup_clamp" lineNumber="55"/>
+    <functiondecl functionName="pid_process_antiwindup_back_calculation" lineNumber="89"/>
+    <functioncall functionName="alpha_derivative"/>
+    <functioncall functionName="clamp"/>
+    <functioncall functionName="d_term"/>
+    <functioncall functionName="derivative_filtered"/>
+    <functioncall functionName="err_integral"/>
+    <functioncall functionName="err_last_one"/>
+    <functioncall functionName="error"/>
+    <functioncall functionName="fconstrain"/>
+    <functioncall functionName="feed_forward"/>
+    <functioncall functionName="i_feedback"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="output_limit"/>
+    <functioncall functionName="v"/>
+  </FileInfo>
+</analyzerinfo>

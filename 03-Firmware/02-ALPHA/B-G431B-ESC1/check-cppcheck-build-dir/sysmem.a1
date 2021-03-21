@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="1045300900">
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="_sbrk" lineNumber="54"/>
+    <functioncall functionName="ENOMEM"/>
+    <functioncall functionName="NULL"/>
+    <functioncall functionName="_Min_Stack_Size"/>
+    <functioncall functionName="__sbrk_heap_end"/>
+    <functioncall functionName="_end"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="incr"/>
+    <functioncall functionName="prev_heap_end"/>
+    <functioncall functionName="return"/>
+    <functioncall functionName="stack_limit"/>
+    <functioncall functionName="uint32_t"/>
+  </FileInfo>
+</analyzerinfo>

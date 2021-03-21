@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="2487019659">
+        <error id="variableScope" severity="style" msg="The scope of the variable &apos;i&apos; can be reduced." verbose="The scope of the variable &apos;i&apos; can be reduced. Warning: Be careful when fixing this message, especially when there are inner loops. Here is an example where cppcheck will write that the scope for &apos;i&apos; can be reduced:\012void f(int x)\012{\012    int i = 0;\012    if (x) {\012        // it&apos;s safe to move &apos;int i = 0;&apos; here\012        for (int n = 0; n &lt; 10; ++n) {\012            // it is possible but not safe to move &apos;int i = 0;&apos; here\012            do_something(&amp;i);\012        }\012    }\012}\012When you see this message it is always safe to reduce the variable scope 1 level." cwe="398" hash="11683226028308708202">
+            <location file0="C:\GitHub\FOC\B-G431B-ESC1\Core\Src\protocol.c" file="C:\GitHub\FOC\B-G431B-ESC1\Core\Src\protocol.c" line="17" column="12"/>
+            <symbol>i</symbol>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="C:/GitHub/FOC/B-G431B-ESC1/Core/Inc/protocol.h:17:10" call-funcname="updateCRC" call-argnr="1" file="C:/GitHub/FOC/B-G431B-ESC1/Core/Src/protocol.c" line="101" col="33" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/FOC/B-G431B-ESC1/Core/Inc/protocol.h:17:10" call-funcname="updateCRC" call-argnr="2" file="C:/GitHub/FOC/B-G431B-ESC1/Core/Src/protocol.c" line="101" col="33" call-argexpr="tx_packet_buffer" call-argvaluetype="7" call-argvalue="1100"/><function-call call-id="C:/GitHub/FOC/B-G431B-ESC1/Core/Inc/serial.h:78:5" call-funcname="HAL_Serial_Write" call-argnr="1" file="C:/GitHub/FOC/B-G431B-ESC1/Core/Src/protocol.c" line="139" col="20" call-argexpr="&serial" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="C:/GitHub/FOC/B-G431B-ESC1/Core/Inc/serial.h:78:5" call-funcname="HAL_Serial_Write" call-argnr="1" file="C:/GitHub/FOC/B-G431B-ESC1/Core/Src/protocol.c" line="165" col="20" call-argexpr="&serial" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="C:/GitHub/FOC/B-G431B-ESC1/Core/Inc/serial.h:78:5" call-funcname="HAL_Serial_Write" call-argnr="1" file="C:/GitHub/FOC/B-G431B-ESC1/Core/Src/protocol.c" line="198" col="20" call-argexpr="&serial" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="C:/GitHub/FOC/B-G431B-ESC1/Core/Inc/serial.h:78:5" call-funcname="HAL_Serial_Write" call-argnr="1" file="C:/GitHub/FOC/B-G431B-ESC1/Core/Src/protocol.c" line="240" col="20" call-argexpr="&serial" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="C:/GitHub/FOC/B-G431B-ESC1/Core/Inc/serial.h:78:5" call-funcname="HAL_Serial_Write" call-argnr="1" file="C:/GitHub/FOC/B-G431B-ESC1/Core/Src/protocol.c" line="253" col="20" call-argexpr="&serial" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="C:/GitHub/FOC/B-G431B-ESC1/Core/Inc/serial.h:78:5" call-funcname="HAL_Serial_Write" call-argnr="1" file="C:/GitHub/FOC/B-G431B-ESC1/Core/Src/protocol.c" line="265" col="19" call-argexpr="&serial" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="C:/GitHub/FOC/B-G431B-ESC1/Core/Inc/protocol.h:17:10" call-funcname="updateCRC" call-argnr="1" file="C:/GitHub/FOC/B-G431B-ESC1/Core/Src/protocol.c" line="361" col="38" call-argexpr="0" call-argvaluetype="0" call-argvalue="0"/><function-call call-id="C:/GitHub/FOC/B-G431B-ESC1/Core/Inc/protocol.h:17:10" call-funcname="updateCRC" call-argnr="2" file="C:/GitHub/FOC/B-G431B-ESC1/Core/Src/protocol.c" line="361" col="38" call-argexpr="rx_packet_buffer" call-argvaluetype="7" call-argvalue="1100"/><function-call call-id="C:/GitHub/FOC/B-G431B-ESC1/Core/Inc/serial.h:78:5" call-funcname="HAL_Serial_Write" call-argnr="1" file="C:/GitHub/FOC/B-G431B-ESC1/Core/Src/protocol.c" line="375" col="20" call-argexpr="&serial" call-argvaluetype="7" call-argvalue="0"/>  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="updateCRC" lineNumber="15"/>
+    <functiondecl functionName="packet_encapsulate" lineNumber="88"/>
+    <functiondecl functionName="instruction_handler" lineNumber="125"/>
+    <functiondecl functionName="packet_handler" lineNumber="277"/>
+    <functioncall functionName="CRC1"/>
+    <functioncall functionName="CRC2"/>
+    <functioncall functionName="HAL_Delay"/>
+    <functioncall functionName="HAL_NVIC_SystemReset"/>
+    <functioncall functionName="HAL_Serial_Write"/>
+    <functioncall functionName="HEADER1"/>
+    <functioncall functionName="HEADER2"/>
+    <functioncall functionName="HEADER3"/>
+    <functioncall functionName="ID"/>
+    <functioncall functionName="LENGTH1"/>
+    <functioncall functionName="LENGTH2"/>
+    <functioncall functionName="PAYLOAD"/>
+    <functioncall functionName="RESERVED"/>
+    <functioncall functionName="break"/>
+    <functioncall functionName="c"/>
+    <functioncall functionName="char"/>
+    <functioncall functionName="data_length"/>
+    <functioncall functionName="default"/>
+    <functioncall functionName="factory_reset_eeprom_regs"/>
+    <functioncall functionName="for"/>
+    <functioncall functionName="i"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="index"/>
+    <functioncall functionName="index2"/>
+    <functioncall functionName="instruction_handler"/>
+    <functioncall functionName="length"/>
+    <functioncall functionName="packet_crc"/>
+    <functioncall functionName="packet_encapsulate"/>
+    <functioncall functionName="packet_state"/>
+    <functioncall functionName="payload_status_length"/>
+    <functioncall functionName="position"/>
+    <functioncall functionName="rx_packet_buffer"/>
+    <functioncall functionName="rx_packet_position"/>
+    <functioncall functionName="serial"/>
+    <functioncall functionName="store_eeprom_regs"/>
+    <functioncall functionName="switch"/>
+    <functioncall functionName="tx_packet_buffer"/>
+    <functioncall functionName="tx_packet_length"/>
+    <functioncall functionName="uint16_t"/>
+    <functioncall functionName="uint32_t"/>
+    <functioncall functionName="uint8_t"/>
+    <functioncall functionName="updateCRC"/>
+  </FileInfo>
+</analyzerinfo>

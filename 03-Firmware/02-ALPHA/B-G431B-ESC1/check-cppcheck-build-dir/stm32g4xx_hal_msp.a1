@@ -1,0 +1,115 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="4076909426">
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/GitHub/FOC/B-G431B-ESC1/Core/Src/stm32g4xx_hal_msp.c:101:6" my-argnr="1" my-argname="hadc" file="C:/GitHub/FOC/B-G431B-ESC1/Core/Src/stm32g4xx_hal_msp.c" line="104" col="6" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/FOC/B-G431B-ESC1/Core/Src/stm32g4xx_hal_msp.c:201:6" my-argnr="1" my-argname="hadc" file="C:/GitHub/FOC/B-G431B-ESC1/Core/Src/stm32g4xx_hal_msp.c" line="203" col="6" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/FOC/B-G431B-ESC1/Core/Src/stm32g4xx_hal_msp.c:274:6" my-argnr="1" my-argname="hcordic" file="C:/GitHub/FOC/B-G431B-ESC1/Core/Src/stm32g4xx_hal_msp.c" line="276" col="6" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/FOC/B-G431B-ESC1/Core/Src/stm32g4xx_hal_msp.c:299:6" my-argnr="1" my-argname="hcordic" file="C:/GitHub/FOC/B-G431B-ESC1/Core/Src/stm32g4xx_hal_msp.c" line="301" col="6" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/FOC/B-G431B-ESC1/Core/Src/stm32g4xx_hal_msp.c:324:6" my-argnr="1" my-argname="hopamp" file="C:/GitHub/FOC/B-G431B-ESC1/Core/Src/stm32g4xx_hal_msp.c" line="327" col="6" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/FOC/B-G431B-ESC1/Core/Src/stm32g4xx_hal_msp.c:396:6" my-argnr="1" my-argname="hopamp" file="C:/GitHub/FOC/B-G431B-ESC1/Core/Src/stm32g4xx_hal_msp.c" line="398" col="6" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/FOC/B-G431B-ESC1/Core/Src/stm32g4xx_hal_msp.c:455:6" my-argnr="1" my-argname="htim_base" file="C:/GitHub/FOC/B-G431B-ESC1/Core/Src/stm32g4xx_hal_msp.c" line="457" col="6" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/FOC/B-G431B-ESC1/Core/Src/stm32g4xx_hal_msp.c:488:6" my-argnr="1" my-argname="htim_ic" file="C:/GitHub/FOC/B-G431B-ESC1/Core/Src/stm32g4xx_hal_msp.c" line="491" col="6" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/FOC/B-G431B-ESC1/Core/Inc/main.h:53:6" my-argnr="1" my-argname="htim" file="C:/GitHub/FOC/B-G431B-ESC1/Core/Src/stm32g4xx_hal_msp.c" line="523" col="6" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/FOC/B-G431B-ESC1/Core/Src/stm32g4xx_hal_msp.c:573:6" my-argnr="1" my-argname="htim_base" file="C:/GitHub/FOC/B-G431B-ESC1/Core/Src/stm32g4xx_hal_msp.c" line="575" col="6" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/FOC/B-G431B-ESC1/Core/Src/stm32g4xx_hal_msp.c:606:6" my-argnr="1" my-argname="htim_ic" file="C:/GitHub/FOC/B-G431B-ESC1/Core/Src/stm32g4xx_hal_msp.c" line="608" col="6" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/FOC/B-G431B-ESC1/Core/Src/stm32g4xx_hal_msp.c:636:6" my-argnr="1" my-argname="huart" file="C:/GitHub/FOC/B-G431B-ESC1/Core/Src/stm32g4xx_hal_msp.c" line="639" col="6" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/FOC/B-G431B-ESC1/Core/Src/stm32g4xx_hal_msp.c:710:6" my-argnr="1" my-argname="huart" file="C:/GitHub/FOC/B-G431B-ESC1/Core/Src/stm32g4xx_hal_msp.c" line="712" col="6" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="HAL_MspInit" lineNumber="73"/>
+    <functiondecl functionName="HAL_ADC_MspInit" lineNumber="101"/>
+    <functiondecl functionName="HAL_ADC_MspDeInit" lineNumber="201"/>
+    <functiondecl functionName="HAL_CORDIC_MspInit" lineNumber="274"/>
+    <functiondecl functionName="HAL_CORDIC_MspDeInit" lineNumber="299"/>
+    <functiondecl functionName="HAL_OPAMP_MspInit" lineNumber="324"/>
+    <functiondecl functionName="HAL_OPAMP_MspDeInit" lineNumber="396"/>
+    <functiondecl functionName="HAL_TIM_Base_MspInit" lineNumber="455"/>
+    <functiondecl functionName="HAL_TIM_IC_MspInit" lineNumber="488"/>
+    <functiondecl functionName="HAL_TIM_MspPostInit" lineNumber="520"/>
+    <functiondecl functionName="HAL_TIM_Base_MspDeInit" lineNumber="573"/>
+    <functiondecl functionName="HAL_TIM_IC_MspDeInit" lineNumber="606"/>
+    <functiondecl functionName="HAL_UART_MspInit" lineNumber="636"/>
+    <functiondecl functionName="HAL_UART_MspDeInit" lineNumber="710"/>
+    <functioncall functionName="ADC1_2_IRQn"/>
+    <functioncall functionName="CORDIC_IRQn"/>
+    <functioncall functionName="DMA1_Channel1"/>
+    <functioncall functionName="DMA1_Channel2"/>
+    <functioncall functionName="DMA1_Channel3"/>
+    <functioncall functionName="DMA1_Channel4"/>
+    <functioncall functionName="DMA_CIRCULAR"/>
+    <functioncall functionName="DMA_Handle"/>
+    <functioncall functionName="DMA_MDATAALIGN_BYTE"/>
+    <functioncall functionName="DMA_MDATAALIGN_HALFWORD"/>
+    <functioncall functionName="DMA_MEMORY_TO_PERIPH"/>
+    <functioncall functionName="DMA_MINC_ENABLE"/>
+    <functioncall functionName="DMA_NORMAL"/>
+    <functioncall functionName="DMA_PDATAALIGN_BYTE"/>
+    <functioncall functionName="DMA_PDATAALIGN_HALFWORD"/>
+    <functioncall functionName="DMA_PERIPH_TO_MEMORY"/>
+    <functioncall functionName="DMA_PINC_DISABLE"/>
+    <functioncall functionName="DMA_PRIORITY_LOW"/>
+    <functioncall functionName="DMA_REQUEST_ADC1"/>
+    <functioncall functionName="DMA_REQUEST_ADC2"/>
+    <functioncall functionName="DMA_REQUEST_USART2_RX"/>
+    <functioncall functionName="DMA_REQUEST_USART2_TX"/>
+    <functioncall functionName="Error_Handler"/>
+    <functioncall functionName="GPIOA"/>
+    <functioncall functionName="GPIOB"/>
+    <functioncall functionName="GPIOC"/>
+    <functioncall functionName="GPIO_AF2_TIM4"/>
+    <functioncall functionName="GPIO_AF4_TIM1"/>
+    <functioncall functionName="GPIO_AF6_TIM1"/>
+    <functioncall functionName="GPIO_AF7_USART2"/>
+    <functioncall functionName="GPIO_InitStruct"/>
+    <functioncall functionName="GPIO_MODE_AF_PP"/>
+    <functioncall functionName="GPIO_MODE_ANALOG"/>
+    <functioncall functionName="GPIO_NOPULL"/>
+    <functioncall functionName="GPIO_PIN_0"/>
+    <functioncall functionName="GPIO_PIN_12"/>
+    <functioncall functionName="GPIO_PIN_13"/>
+    <functioncall functionName="GPIO_PIN_15"/>
+    <functioncall functionName="GPIO_PIN_2"/>
+    <functioncall functionName="GPIO_PIN_3"/>
+    <functioncall functionName="GPIO_PIN_4"/>
+    <functioncall functionName="GPIO_PIN_6"/>
+    <functioncall functionName="GPIO_PIN_7"/>
+    <functioncall functionName="GPIO_SPEED_FREQ_LOW"/>
+    <functioncall functionName="HAL_DMA_DeInit"/>
+    <functioncall functionName="HAL_DMA_Init"/>
+    <functioncall functionName="HAL_GPIO_DeInit"/>
+    <functioncall functionName="HAL_GPIO_Init"/>
+    <functioncall functionName="HAL_NVIC_DisableIRQ"/>
+    <functioncall functionName="HAL_NVIC_EnableIRQ"/>
+    <functioncall functionName="HAL_NVIC_SetPriority"/>
+    <functioncall functionName="HAL_PWREx_DisableUCPDDeadBattery"/>
+    <functioncall functionName="TIM4_IRQn"/>
+    <functioncall functionName="USART2_IRQn"/>
+    <functioncall functionName="__HAL_LINKDMA"/>
+    <functioncall functionName="__HAL_RCC_ADC12_CLK_DISABLE"/>
+    <functioncall functionName="__HAL_RCC_ADC12_CLK_ENABLE"/>
+    <functioncall functionName="__HAL_RCC_CORDIC_CLK_DISABLE"/>
+    <functioncall functionName="__HAL_RCC_CORDIC_CLK_ENABLE"/>
+    <functioncall functionName="__HAL_RCC_GPIOA_CLK_ENABLE"/>
+    <functioncall functionName="__HAL_RCC_GPIOB_CLK_ENABLE"/>
+    <functioncall functionName="__HAL_RCC_GPIOC_CLK_ENABLE"/>
+    <functioncall functionName="__HAL_RCC_PWR_CLK_ENABLE"/>
+    <functioncall functionName="__HAL_RCC_SYSCFG_CLK_ENABLE"/>
+    <functioncall functionName="__HAL_RCC_TIM1_CLK_DISABLE"/>
+    <functioncall functionName="__HAL_RCC_TIM1_CLK_ENABLE"/>
+    <functioncall functionName="__HAL_RCC_TIM4_CLK_DISABLE"/>
+    <functioncall functionName="__HAL_RCC_TIM4_CLK_ENABLE"/>
+    <functioncall functionName="__HAL_RCC_TIM6_CLK_DISABLE"/>
+    <functioncall functionName="__HAL_RCC_TIM6_CLK_ENABLE"/>
+    <functioncall functionName="__HAL_RCC_USART2_CLK_DISABLE"/>
+    <functioncall functionName="__HAL_RCC_USART2_CLK_ENABLE"/>
+    <functioncall functionName="hadc"/>
+    <functioncall functionName="hdma_adc1"/>
+    <functioncall functionName="hdma_adc2"/>
+    <functioncall functionName="hdma_usart2_rx"/>
+    <functioncall functionName="hdma_usart2_tx"/>
+    <functioncall functionName="hdmarx"/>
+    <functioncall functionName="hdmatx"/>
+    <functioncall functionName="huart"/>
+    <functioncall functionName="if"/>
+  </FileInfo>
+</analyzerinfo>

@@ -1,0 +1,90 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="2684468992">
+  <FileInfo check="ctu">
+<function-call call-id="C:/GitHub/FOC/B-G431B-ESC1/Core/Src/serial.c:248:6" call-funcname="ts_itoa" call-argnr="1" file="C:/GitHub/FOC/B-G431B-ESC1/Core/Src/serial.c" line="294" col="13" call-argexpr="&buf" call-argvaluetype="7" call-argvalue="1"/><function-call call-id="C:/GitHub/FOC/B-G431B-ESC1/Core/Src/serial.c:248:6" call-funcname="ts_itoa" call-argnr="1" file="C:/GitHub/FOC/B-G431B-ESC1/Core/Src/serial.c" line="307" col="13" call-argexpr="&buf" call-argvaluetype="7" call-argvalue="1"/><function-call call-id="C:/GitHub/FOC/B-G431B-ESC1/Core/Src/serial.c:248:6" call-funcname="ts_itoa" call-argnr="1" file="C:/GitHub/FOC/B-G431B-ESC1/Core/Src/serial.c" line="311" col="13" call-argexpr="&buf" call-argvaluetype="7" call-argvalue="1"/><function-call call-id="C:/GitHub/FOC/B-G431B-ESC1/Core/Src/serial.c:272:5" call-funcname="ts_formatstring" call-argnr="1" file="C:/GitHub/FOC/B-G431B-ESC1/Core/Src/serial.c" line="396" col="27" call-argexpr="buf" call-argvaluetype="7" call-argvalue="2147483648"/><function-call call-id="C:/GitHub/FOC/B-G431B-ESC1/Core/Inc/serial.h:78:5" call-funcname="HAL_Serial_Write" call-argnr="1" file="C:/GitHub/FOC/B-G431B-ESC1/Core/Src/serial.c" line="397" col="12" my-id="C:/GitHub/FOC/B-G431B-ESC1/Core/Inc/serial.h:79:5" my-argnr="1"/>
+  </FileInfo>
+  <FileInfo check="Null pointer">
+    <unsafe-usage my-id="C:/GitHub/FOC/B-G431B-ESC1/Core/Inc/serial.h:75:5" my-argnr="1" my-argname="hserial" file="C:/GitHub/FOC/B-G431B-ESC1/Core/Src/serial.c" line="100" col="8" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/FOC/B-G431B-ESC1/Core/Inc/serial.h:76:6" my-argnr="1" my-argname="hserial" file="C:/GitHub/FOC/B-G431B-ESC1/Core/Src/serial.c" line="112" col="8" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/FOC/B-G431B-ESC1/Core/Inc/serial.h:77:5" my-argnr="1" my-argname="hserial" file="C:/GitHub/FOC/B-G431B-ESC1/Core/Src/serial.c" line="129" col="8" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/FOC/B-G431B-ESC1/Core/Inc/serial.h:78:5" my-argnr="1" my-argname="hserial" file="C:/GitHub/FOC/B-G431B-ESC1/Core/Src/serial.c" line="147" col="8" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/FOC/B-G431B-ESC1/Core/Src/serial.c:272:5" my-argnr="2" my-argname="fmt" file="C:/GitHub/FOC/B-G431B-ESC1/Core/Src/serial.c" line="275" col="9" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/FOC/B-G431B-ESC1/Core/Src/serial.c:338:5" my-argnr="1" my-argname="fmt" file="C:/GitHub/FOC/B-G431B-ESC1/Core/Src/serial.c" line="341" col="10" value="0"/>
+  </FileInfo>
+  <FileInfo check="Uninitialized variables">
+    <unsafe-usage my-id="C:/GitHub/FOC/B-G431B-ESC1/Core/Src/serial.c:272:5" my-argnr="2" my-argname="fmt" file="C:/GitHub/FOC/B-G431B-ESC1/Core/Src/serial.c" line="275" col="9" value="0"/>
+    <unsafe-usage my-id="C:/GitHub/FOC/B-G431B-ESC1/Core/Src/serial.c:338:5" my-argnr="1" my-argname="fmt" file="C:/GitHub/FOC/B-G431B-ESC1/Core/Src/serial.c" line="341" col="10" value="0"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="HAL_UART_ErrorCallback" lineNumber="18"/>
+    <functiondecl functionName="HAL_Serial_Init" lineNumber="32"/>
+    <functiondecl functionName="HAL_Serial_Init_Half_Duplex" lineNumber="59"/>
+    <functiondecl functionName="HAL_Serial_Available" lineNumber="98"/>
+    <functiondecl functionName="HAL_Serial_GetChar" lineNumber="110"/>
+    <functiondecl functionName="HAL_Serial_Read" lineNumber="127"/>
+    <functiondecl functionName="HAL_Serial_Write" lineNumber="145"/>
+    <functiondecl functionName="HAL_UART_TxCpltCallback" lineNumber="197"/>
+    <functiondecl functionName="ts_itoa" lineNumber="248"/>
+    <functiondecl functionName="ts_formatstring" lineNumber="272"/>
+    <functiondecl functionName="ts_formatlength" lineNumber="338"/>
+    <functiondecl functionName="HAL_Serial_Print" lineNumber="386"/>
+    <functioncall functionName="GPIO_PIN_RESET"/>
+    <functioncall functionName="GPIO_PIN_SET"/>
+    <functioncall functionName="GPIO_Pin_DIR_RX"/>
+    <functioncall functionName="GPIO_Pin_DIR_TX"/>
+    <functioncall functionName="GPIO_Pin_RX"/>
+    <functioncall functionName="GPIO_Pin_TX"/>
+    <functioncall functionName="GPIOx_DIR_RX"/>
+    <functioncall functionName="GPIOx_DIR_TX"/>
+    <functioncall functionName="GPIOx_RX"/>
+    <functioncall functionName="GPIOx_TX"/>
+    <functioncall functionName="HAL_GPIO_WritePin"/>
+    <functioncall functionName="HAL_Serial_Write"/>
+    <functioncall functionName="HAL_UART_Receive_DMA"/>
+    <functioncall functionName="HAL_UART_Transmit_DMA"/>
+    <functioncall functionName="PinState_DIR_RX"/>
+    <functioncall functionName="PinState_DIR_TX"/>
+    <functioncall functionName="PinState_RX"/>
+    <functioncall functionName="PinState_TX"/>
+    <functioncall functionName="__HAL_DMA_GET_COUNTER"/>
+    <functioncall functionName="break"/>
+    <functioncall functionName="buf"/>
+    <functioncall functionName="data"/>
+    <functioncall functionName="default"/>
+    <functioncall functionName="div"/>
+    <functioncall functionName="dst"/>
+    <functioncall functionName="false"/>
+    <functioncall functionName="fmt"/>
+    <functioncall functionName="for"/>
+    <functioncall functionName="half_duplex"/>
+    <functioncall functionName="hdmarx"/>
+    <functioncall functionName="hserial"/>
+    <functioncall functionName="huart"/>
+    <functioncall functionName="id"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="int"/>
+    <functioncall functionName="len"/>
+    <functioncall functionName="length"/>
+    <functioncall functionName="memcpy"/>
+    <functioncall functionName="num"/>
+    <functioncall functionName="ptr"/>
+    <functioncall functionName="return"/>
+    <functioncall functionName="rx_circular_buffer"/>
+    <functioncall functionName="rx_tail_ptr"/>
+    <functioncall functionName="start_buf"/>
+    <functioncall functionName="switch"/>
+    <functioncall functionName="tail"/>
+    <functioncall functionName="true"/>
+    <functioncall functionName="ts_formatlength"/>
+    <functioncall functionName="ts_formatstring"/>
+    <functioncall functionName="ts_itoa"/>
+    <functioncall functionName="tx_head_position"/>
+    <functioncall functionName="tx_tail_position"/>
+    <functioncall functionName="va"/>
+    <functioncall functionName="va_arg"/>
+    <functioncall functionName="va_end"/>
+    <functioncall functionName="va_start"/>
+    <functioncall functionName="val"/>
+    <functioncall functionName="while"/>
+  </FileInfo>
+</analyzerinfo>

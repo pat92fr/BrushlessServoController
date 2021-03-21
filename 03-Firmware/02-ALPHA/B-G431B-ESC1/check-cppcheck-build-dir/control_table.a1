@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="1903096884">
+  <FileInfo check="ctu">
+<function-call call-id="C:/GitHub/FOC/B-G431B-ESC1/Core/Inc/eeprom.h:16:19" call-funcname="eeprom_store" call-argnr="1" file="C:/GitHub/FOC/B-G431B-ESC1/Core/Src/control_table.c" line="105" col="14" call-argexpr="regs" call-argvaluetype="7" call-argvalue="178"/><function-call call-id="C:/GitHub/FOC/B-G431B-ESC1/Core/Inc/eeprom.h:15:19" call-funcname="eeprom_restore" call-argnr="1" file="C:/GitHub/FOC/B-G431B-ESC1/Core/Src/control_table.c" line="111" col="16" call-argexpr="regs" call-argvaluetype="7" call-argvalue="178"/><function-call call-id="C:/GitHub/FOC/B-G431B-ESC1/Core/Inc/eeprom.h:16:19" call-funcname="eeprom_store" call-argnr="1" file="C:/GitHub/FOC/B-G431B-ESC1/Core/Src/control_table.c" line="116" col="14" call-argexpr="regs" call-argvaluetype="7" call-argvalue="178"/>  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="factory_reset_eeprom_regs" lineNumber="17"/>
+    <functiondecl functionName="load_eeprom_regs" lineNumber="109"/>
+    <functiondecl functionName="store_eeprom_regs" lineNumber="114"/>
+    <functiondecl functionName="reset_ram_regs" lineNumber="119"/>
+    <functioncall functionName="char"/>
+    <functioncall functionName="eeprom_restore"/>
+    <functioncall functionName="eeprom_store"/>
+    <functioncall functionName="memset"/>
+    <functioncall functionName="regs"/>
+  </FileInfo>
+</analyzerinfo>

@@ -1,0 +1,289 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="2123141562">
+  <FileInfo check="ctu">
+<function-call call-id="C:/GitHub/FOC/B-G431B-ESC1/Core/Inc/serial.h:64:6" call-funcname="HAL_Serial_Init" call-argnr="2" file="C:/GitHub/FOC/B-G431B-ESC1/Core/Src/main.c" line="162" col="18" call-argexpr="&serial" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="C:/GitHub/FOC/B-G431B-ESC1/Core/Inc/serial.h:79:5" call-funcname="HAL_Serial_Print" call-argnr="1" file="C:/GitHub/FOC/B-G431B-ESC1/Core/Src/main.c" line="163" col="19" call-argexpr="&serial" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="C:/GitHub/FOC/B-G431B-ESC1/Core/Inc/pid.h:26:6" call-funcname="pid_reset" call-argnr="1" file="C:/GitHub/FOC/B-G431B-ESC1/Core/Src/main.c" line="180" col="11" call-argexpr="&pid_position" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="C:/GitHub/FOC/B-G431B-ESC1/Core/Inc/pid.h:26:6" call-funcname="pid_reset" call-argnr="1" file="C:/GitHub/FOC/B-G431B-ESC1/Core/Src/main.c" line="180" col="11" call-argexpr="pid_position" call-argvaluetype="4" call-argvalue="0"/><function-call call-id="C:/GitHub/FOC/B-G431B-ESC1/Core/Inc/pid.h:26:6" call-funcname="pid_reset" call-argnr="1" file="C:/GitHub/FOC/B-G431B-ESC1/Core/Src/main.c" line="181" col="11" call-argexpr="&pid_velocity" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="C:/GitHub/FOC/B-G431B-ESC1/Core/Inc/pid.h:26:6" call-funcname="pid_reset" call-argnr="1" file="C:/GitHub/FOC/B-G431B-ESC1/Core/Src/main.c" line="181" col="11" call-argexpr="pid_velocity" call-argvaluetype="4" call-argvalue="0"/><function-call call-id="C:/GitHub/FOC/B-G431B-ESC1/Core/Inc/serial.h:75:5" call-funcname="HAL_Serial_Available" call-argnr="1" file="C:/GitHub/FOC/B-G431B-ESC1/Core/Src/main.c" line="189" col="28" call-argexpr="&serial" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="C:/GitHub/FOC/B-G431B-ESC1/Core/Inc/serial.h:76:6" call-funcname="HAL_Serial_GetChar" call-argnr="1" file="C:/GitHub/FOC/B-G431B-ESC1/Core/Src/main.c" line="191" col="31" call-argexpr="&serial" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="C:/GitHub/FOC/B-G431B-ESC1/Core/Inc/pid.h:26:6" call-funcname="pid_reset" call-argnr="1" file="C:/GitHub/FOC/B-G431B-ESC1/Core/Src/main.c" line="223" col="14" call-argexpr="&pid_position" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="C:/GitHub/FOC/B-G431B-ESC1/Core/Inc/pid.h:26:6" call-funcname="pid_reset" call-argnr="1" file="C:/GitHub/FOC/B-G431B-ESC1/Core/Src/main.c" line="224" col="14" call-argexpr="&pid_velocity" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="C:/GitHub/FOC/B-G431B-ESC1/Core/Inc/pid.h:28:7" call-funcname="pid_process_antiwindup_clamp_with_ff" call-argnr="1" file="C:/GitHub/FOC/B-G431B-ESC1/Core/Src/main.c" line="251" col="80" call-argexpr="&pid_position" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="C:/GitHub/FOC/B-G431B-ESC1/Core/Inc/pid.h:28:7" call-funcname="pid_process_antiwindup_clamp_with_ff" call-argnr="1" file="C:/GitHub/FOC/B-G431B-ESC1/Core/Src/main.c" line="267" col="113" call-argexpr="&pid_velocity" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="C:/GitHub/FOC/B-G431B-ESC1/Core/Inc/pid.h:26:6" call-funcname="pid_reset" call-argnr="1" file="C:/GitHub/FOC/B-G431B-ESC1/Core/Src/main.c" line="284" col="14" call-argexpr="&pid_velocity" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="C:/GitHub/FOC/B-G431B-ESC1/Core/Inc/pid.h:28:7" call-funcname="pid_process_antiwindup_clamp_with_ff" call-argnr="1" file="C:/GitHub/FOC/B-G431B-ESC1/Core/Src/main.c" line="311" col="113" call-argexpr="&pid_velocity" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="C:/GitHub/FOC/B-G431B-ESC1/Core/Inc/position_sensor.h:20:6" call-funcname="API_AS5048A_Position_Sensor_It" call-argnr="1" file="C:/GitHub/FOC/B-G431B-ESC1/Core/Src/main.c" line="104" col="2" my-id="C:/GitHub/FOC/B-G431B-ESC1/Core/Src/main.c:102:6" my-argnr="1"/>
+<function-call call-id="C:/GitHub/FOC/B-G431B-ESC1/Core/Inc/foc.h:37:6" call-funcname="API_FOC_It" call-argnr="1" file="C:/GitHub/FOC/B-G431B-ESC1/Core/Src/main.c" line="112" col="2" my-id="C:/GitHub/FOC/B-G431B-ESC1/Core/Src/main.c:110:6" my-argnr="1"/>
+  </FileInfo>
+  <FileInfo check="ctu">
+<function-call call-id="C:/GitHub/FOC/B-G431B-ESC1/Core/Inc/serial.h:64:6" call-funcname="HAL_Serial_Init" call-argnr="2" file="C:/GitHub/FOC/B-G431B-ESC1/Core/Src/main.c" line="162" col="18" call-argexpr="&serial" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="C:/GitHub/FOC/B-G431B-ESC1/Core/Inc/serial.h:79:5" call-funcname="HAL_Serial_Print" call-argnr="1" file="C:/GitHub/FOC/B-G431B-ESC1/Core/Src/main.c" line="163" col="19" call-argexpr="&serial" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="C:/GitHub/FOC/B-G431B-ESC1/Core/Inc/pid.h:26:6" call-funcname="pid_reset" call-argnr="1" file="C:/GitHub/FOC/B-G431B-ESC1/Core/Src/main.c" line="180" col="11" call-argexpr="&pid_position" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="C:/GitHub/FOC/B-G431B-ESC1/Core/Inc/pid.h:26:6" call-funcname="pid_reset" call-argnr="1" file="C:/GitHub/FOC/B-G431B-ESC1/Core/Src/main.c" line="180" col="11" call-argexpr="pid_position" call-argvaluetype="4" call-argvalue="0"/><function-call call-id="C:/GitHub/FOC/B-G431B-ESC1/Core/Inc/pid.h:26:6" call-funcname="pid_reset" call-argnr="1" file="C:/GitHub/FOC/B-G431B-ESC1/Core/Src/main.c" line="181" col="11" call-argexpr="&pid_velocity" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="C:/GitHub/FOC/B-G431B-ESC1/Core/Inc/pid.h:26:6" call-funcname="pid_reset" call-argnr="1" file="C:/GitHub/FOC/B-G431B-ESC1/Core/Src/main.c" line="181" col="11" call-argexpr="pid_velocity" call-argvaluetype="4" call-argvalue="0"/><function-call call-id="C:/GitHub/FOC/B-G431B-ESC1/Core/Inc/serial.h:75:5" call-funcname="HAL_Serial_Available" call-argnr="1" file="C:/GitHub/FOC/B-G431B-ESC1/Core/Src/main.c" line="189" col="28" call-argexpr="&serial" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="C:/GitHub/FOC/B-G431B-ESC1/Core/Inc/serial.h:76:6" call-funcname="HAL_Serial_GetChar" call-argnr="1" file="C:/GitHub/FOC/B-G431B-ESC1/Core/Src/main.c" line="191" col="31" call-argexpr="&serial" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="C:/GitHub/FOC/B-G431B-ESC1/Core/Inc/pid.h:26:6" call-funcname="pid_reset" call-argnr="1" file="C:/GitHub/FOC/B-G431B-ESC1/Core/Src/main.c" line="223" col="14" call-argexpr="&pid_position" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="C:/GitHub/FOC/B-G431B-ESC1/Core/Inc/pid.h:26:6" call-funcname="pid_reset" call-argnr="1" file="C:/GitHub/FOC/B-G431B-ESC1/Core/Src/main.c" line="224" col="14" call-argexpr="&pid_velocity" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="C:/GitHub/FOC/B-G431B-ESC1/Core/Inc/pid.h:28:7" call-funcname="pid_process_antiwindup_clamp_with_ff" call-argnr="1" file="C:/GitHub/FOC/B-G431B-ESC1/Core/Src/main.c" line="251" col="80" call-argexpr="&pid_position" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="C:/GitHub/FOC/B-G431B-ESC1/Core/Inc/pid.h:28:7" call-funcname="pid_process_antiwindup_clamp_with_ff" call-argnr="1" file="C:/GitHub/FOC/B-G431B-ESC1/Core/Src/main.c" line="267" col="113" call-argexpr="&pid_velocity" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="C:/GitHub/FOC/B-G431B-ESC1/Core/Inc/pid.h:26:6" call-funcname="pid_reset" call-argnr="1" file="C:/GitHub/FOC/B-G431B-ESC1/Core/Src/main.c" line="284" col="14" call-argexpr="&pid_velocity" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="C:/GitHub/FOC/B-G431B-ESC1/Core/Inc/pid.h:28:7" call-funcname="pid_process_antiwindup_clamp_with_ff" call-argnr="1" file="C:/GitHub/FOC/B-G431B-ESC1/Core/Src/main.c" line="311" col="113" call-argexpr="&pid_velocity" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="C:/GitHub/FOC/B-G431B-ESC1/Core/Inc/position_sensor.h:20:6" call-funcname="API_AS5048A_Position_Sensor_It" call-argnr="1" file="C:/GitHub/FOC/B-G431B-ESC1/Core/Src/main.c" line="104" col="2" my-id="C:/GitHub/FOC/B-G431B-ESC1/Core/Src/main.c:102:6" my-argnr="1"/>
+<function-call call-id="C:/GitHub/FOC/B-G431B-ESC1/Core/Inc/foc.h:37:6" call-funcname="API_FOC_It" call-argnr="1" file="C:/GitHub/FOC/B-G431B-ESC1/Core/Src/main.c" line="112" col="2" my-id="C:/GitHub/FOC/B-G431B-ESC1/Core/Src/main.c:110:6" my-argnr="1"/>
+  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="HAL_TIM_IC_CaptureCallback" lineNumber="102"/>
+    <functiondecl functionName="HAL_ADC_ConvCpltCallback" lineNumber="110"/>
+    <functiondecl functionName="main" lineNumber="122"/>
+    <functiondecl functionName="SystemClock_Config" lineNumber="455"/>
+    <functiondecl functionName="MX_ADC1_Init" lineNumber="509"/>
+    <functiondecl functionName="MX_ADC2_Init" lineNumber="597"/>
+    <functiondecl functionName="MX_CORDIC_Init" lineNumber="669"/>
+    <functiondecl functionName="MX_OPAMP1_Init" lineNumber="695"/>
+    <functiondecl functionName="MX_OPAMP2_Init" lineNumber="729"/>
+    <functiondecl functionName="MX_OPAMP3_Init" lineNumber="763"/>
+    <functiondecl functionName="MX_TIM1_Init" lineNumber="797"/>
+    <functiondecl functionName="MX_TIM4_Init" lineNumber="889"/>
+    <functiondecl functionName="MX_TIM6_Init" lineNumber="953"/>
+    <functiondecl functionName="MX_USART2_UART_Init" lineNumber="991"/>
+    <functiondecl functionName="MX_DMA_Init" lineNumber="1037"/>
+    <functiondecl functionName="MX_GPIO_Init" lineNumber="1065"/>
+    <functiondecl functionName="Error_Handler" lineNumber="1095"/>
+    <functiondecl functionName="HAL_TIM_IC_CaptureCallback" lineNumber="102"/>
+    <functiondecl functionName="HAL_ADC_ConvCpltCallback" lineNumber="110"/>
+    <functiondecl functionName="main" lineNumber="122"/>
+    <functiondecl functionName="SystemClock_Config" lineNumber="455"/>
+    <functiondecl functionName="MX_ADC1_Init" lineNumber="509"/>
+    <functiondecl functionName="MX_ADC2_Init" lineNumber="597"/>
+    <functiondecl functionName="MX_CORDIC_Init" lineNumber="669"/>
+    <functiondecl functionName="MX_OPAMP1_Init" lineNumber="695"/>
+    <functiondecl functionName="MX_OPAMP2_Init" lineNumber="729"/>
+    <functiondecl functionName="MX_OPAMP3_Init" lineNumber="763"/>
+    <functiondecl functionName="MX_TIM1_Init" lineNumber="797"/>
+    <functiondecl functionName="MX_TIM4_Init" lineNumber="889"/>
+    <functiondecl functionName="MX_TIM6_Init" lineNumber="953"/>
+    <functiondecl functionName="MX_USART2_UART_Init" lineNumber="991"/>
+    <functiondecl functionName="MX_DMA_Init" lineNumber="1037"/>
+    <functiondecl functionName="MX_GPIO_Init" lineNumber="1065"/>
+    <functiondecl functionName="Error_Handler" lineNumber="1095"/>
+    <functiondecl functionName="assert_failed" lineNumber="1114"/>
+    <functioncall functionName="ADC1"/>
+    <functioncall functionName="ADC2"/>
+    <functioncall functionName="ADC_CHANNEL_1"/>
+    <functioncall functionName="ADC_CHANNEL_11"/>
+    <functioncall functionName="ADC_CHANNEL_VOPAMP1"/>
+    <functioncall functionName="ADC_CHANNEL_VOPAMP2"/>
+    <functioncall functionName="ADC_CHANNEL_VOPAMP3_ADC2"/>
+    <functioncall functionName="ADC_CLOCK_SYNC_PCLK_DIV4"/>
+    <functioncall functionName="ADC_DATAALIGN_RIGHT"/>
+    <functioncall functionName="ADC_EOC_SEQ_CONV"/>
+    <functioncall functionName="ADC_EXTERNALTRIGCONVEDGE_RISING"/>
+    <functioncall functionName="ADC_EXTERNALTRIG_T1_TRGO"/>
+    <functioncall functionName="ADC_MODE_INDEPENDENT"/>
+    <functioncall functionName="ADC_OFFSET_NONE"/>
+    <functioncall functionName="ADC_OVR_DATA_OVERWRITTEN"/>
+    <functioncall functionName="ADC_REGULAR_RANK_1"/>
+    <functioncall functionName="ADC_REGULAR_RANK_2"/>
+    <functioncall functionName="ADC_REGULAR_RANK_3"/>
+    <functioncall functionName="ADC_REGULAR_RANK_4"/>
+    <functioncall functionName="ADC_RESOLUTION_12B"/>
+    <functioncall functionName="ADC_SAMPLETIME_2CYCLES_5"/>
+    <functioncall functionName="ADC_SCAN_ENABLE"/>
+    <functioncall functionName="ADC_SINGLE_ENDED"/>
+    <functioncall functionName="API_AS5048A_Position_Sensor_Get_DPS"/>
+    <functioncall functionName="API_AS5048A_Position_Sensor_Get_Multiturn_Radians"/>
+    <functioncall functionName="API_AS5048A_Position_Sensor_It"/>
+    <functioncall functionName="API_FOC_Get_Present_Flux_Current"/>
+    <functioncall functionName="API_FOC_Get_Present_Torque_Current"/>
+    <functioncall functionName="API_FOC_Get_Present_Velocity"/>
+    <functioncall functionName="API_FOC_Init"/>
+    <functioncall functionName="API_FOC_It"/>
+    <functioncall functionName="API_FOC_Update_Torque_Closed_Loop"/>
+    <functioncall functionName="CORDIC"/>
+    <functioncall functionName="DISABLE"/>
+    <functioncall functionName="DMA1_Channel1_IRQn"/>
+    <functioncall functionName="DMA1_Channel2_IRQn"/>
+    <functioncall functionName="DMA1_Channel3_IRQn"/>
+    <functioncall functionName="DMA1_Channel4_IRQn"/>
+    <functioncall functionName="ENABLE"/>
+    <functioncall functionName="Error_Handler"/>
+    <functioncall functionName="FLASH_LATENCY_4"/>
+    <functioncall functionName="GPIOC"/>
+    <functioncall functionName="GPIO_InitStruct"/>
+    <functioncall functionName="GPIO_MODE_OUTPUT_PP"/>
+    <functioncall functionName="GPIO_NOPULL"/>
+    <functioncall functionName="GPIO_PIN_6"/>
+    <functioncall functionName="GPIO_PIN_RESET"/>
+    <functioncall functionName="GPIO_SPEED_FREQ_LOW"/>
+    <functioncall functionName="HAL_ADCEx_MultiModeConfigChannel"/>
+    <functioncall functionName="HAL_ADC_ConfigChannel"/>
+    <functioncall functionName="HAL_ADC_Init"/>
+    <functioncall functionName="HAL_CORDIC_Init"/>
+    <functioncall functionName="HAL_GPIO_Init"/>
+    <functioncall functionName="HAL_GPIO_WritePin"/>
+    <functioncall functionName="HAL_Init"/>
+    <functioncall functionName="HAL_NVIC_EnableIRQ"/>
+    <functioncall functionName="HAL_NVIC_SetPriority"/>
+    <functioncall functionName="HAL_OPAMP_Init"/>
+    <functioncall functionName="HAL_PWREx_ControlVoltageScaling"/>
+    <functioncall functionName="HAL_RCCEx_PeriphCLKConfig"/>
+    <functioncall functionName="HAL_RCC_ClockConfig"/>
+    <functioncall functionName="HAL_RCC_OscConfig"/>
+    <functioncall functionName="HAL_Serial_Available"/>
+    <functioncall functionName="HAL_Serial_GetChar"/>
+    <functioncall functionName="HAL_Serial_Init"/>
+    <functioncall functionName="HAL_Serial_Print"/>
+    <functioncall functionName="HAL_TIMEx_ConfigBreakDeadTime"/>
+    <functioncall functionName="HAL_TIMEx_MasterConfigSynchronization"/>
+    <functioncall functionName="HAL_TIM_Base_Init"/>
+    <functioncall functionName="HAL_TIM_Base_Start"/>
+    <functioncall functionName="HAL_TIM_ConfigClockSource"/>
+    <functioncall functionName="HAL_TIM_IC_ConfigChannel"/>
+    <functioncall functionName="HAL_TIM_IC_Init"/>
+    <functioncall functionName="HAL_TIM_MspPostInit"/>
+    <functioncall functionName="HAL_TIM_PWM_ConfigChannel"/>
+    <functioncall functionName="HAL_TIM_PWM_Init"/>
+    <functioncall functionName="HAL_TIM_SlaveConfigSynchro"/>
+    <functioncall functionName="HAL_UARTEx_DisableFifoMode"/>
+    <functioncall functionName="HAL_UARTEx_SetRxFifoThreshold"/>
+    <functioncall functionName="HAL_UARTEx_SetTxFifoThreshold"/>
+    <functioncall functionName="HAL_UART_Init"/>
+    <functioncall functionName="MX_ADC1_Init"/>
+    <functioncall functionName="MX_ADC2_Init"/>
+    <functioncall functionName="MX_CORDIC_Init"/>
+    <functioncall functionName="MX_DMA_Init"/>
+    <functioncall functionName="MX_GPIO_Init"/>
+    <functioncall functionName="MX_OPAMP1_Init"/>
+    <functioncall functionName="MX_OPAMP2_Init"/>
+    <functioncall functionName="MX_OPAMP3_Init"/>
+    <functioncall functionName="MX_TIM1_Init"/>
+    <functioncall functionName="MX_TIM4_Init"/>
+    <functioncall functionName="MX_TIM6_Init"/>
+    <functioncall functionName="MX_USART2_UART_Init"/>
+    <functioncall functionName="OPAMP1"/>
+    <functioncall functionName="OPAMP2"/>
+    <functioncall functionName="OPAMP3"/>
+    <functioncall functionName="OPAMP_NONINVERTINGINPUT_IO0"/>
+    <functioncall functionName="OPAMP_PGA_CONNECT_INVERTINGINPUT_IO0_BIAS"/>
+    <functioncall functionName="OPAMP_PGA_GAIN_16_OR_MINUS_15"/>
+    <functioncall functionName="OPAMP_PGA_MODE"/>
+    <functioncall functionName="OPAMP_POWERMODE_NORMAL"/>
+    <functioncall functionName="OPAMP_TIMERCONTROLLEDMUXMODE_DISABLE"/>
+    <functioncall functionName="OPAMP_TRIMMING_FACTORY"/>
+    <functioncall functionName="PWR_REGULATOR_VOLTAGE_SCALE1"/>
+    <functioncall functionName="PeriphClkInit"/>
+    <functioncall functionName="RCC_ADC12CLKSOURCE_SYSCLK"/>
+    <functioncall functionName="RCC_CLOCKTYPE_PCLK2"/>
+    <functioncall functionName="RCC_ClkInitStruct"/>
+    <functioncall functionName="RCC_HCLK_DIV1"/>
+    <functioncall functionName="RCC_HSE_ON"/>
+    <functioncall functionName="RCC_OSCILLATORTYPE_HSE"/>
+    <functioncall functionName="RCC_OscInitStruct"/>
+    <functioncall functionName="RCC_PERIPHCLK_ADC12"/>
+    <functioncall functionName="RCC_PLLM_DIV2"/>
+    <functioncall functionName="RCC_PLLP_DIV2"/>
+    <functioncall functionName="RCC_PLLQ_DIV2"/>
+    <functioncall functionName="RCC_PLLR_DIV2"/>
+    <functioncall functionName="RCC_PLLSOURCE_HSE"/>
+    <functioncall functionName="RCC_PLL_ON"/>
+    <functioncall functionName="RCC_SYSCLKSOURCE_PLLCLK"/>
+    <functioncall functionName="RCC_SYSCLK_DIV1"/>
+    <functioncall functionName="RCC_USART2CLKSOURCE_PCLK1"/>
+    <functioncall functionName="SystemClock_Config"/>
+    <functioncall functionName="TIM1"/>
+    <functioncall functionName="TIM4"/>
+    <functioncall functionName="TIM6"/>
+    <functioncall functionName="TIM_AUTOMATICOUTPUT_DISABLE"/>
+    <functioncall functionName="TIM_AUTORELOAD_PRELOAD_DISABLE"/>
+    <functioncall functionName="TIM_BREAK2POLARITY_HIGH"/>
+    <functioncall functionName="TIM_BREAK2_DISABLE"/>
+    <functioncall functionName="TIM_BREAKPOLARITY_HIGH"/>
+    <functioncall functionName="TIM_BREAK_AFMODE_INPUT"/>
+    <functioncall functionName="TIM_BREAK_DISABLE"/>
+    <functioncall functionName="TIM_CHANNEL_1"/>
+    <functioncall functionName="TIM_CHANNEL_2"/>
+    <functioncall functionName="TIM_CHANNEL_3"/>
+    <functioncall functionName="TIM_CLOCKDIVISION_DIV1"/>
+    <functioncall functionName="TIM_CLOCKSOURCE_INTERNAL"/>
+    <functioncall functionName="TIM_COUNTERMODE_CENTERALIGNED1"/>
+    <functioncall functionName="TIM_COUNTERMODE_UP"/>
+    <functioncall functionName="TIM_ICPSC_DIV1"/>
+    <functioncall functionName="TIM_ICSELECTION_DIRECTTI"/>
+    <functioncall functionName="TIM_ICSELECTION_INDIRECTTI"/>
+    <functioncall functionName="TIM_INPUTCHANNELPOLARITY_FALLING"/>
+    <functioncall functionName="TIM_INPUTCHANNELPOLARITY_RISING"/>
+    <functioncall functionName="TIM_LOCKLEVEL_OFF"/>
+    <functioncall functionName="TIM_MASTERSLAVEMODE_DISABLE"/>
+    <functioncall functionName="TIM_OCFAST_DISABLE"/>
+    <functioncall functionName="TIM_OCIDLESTATE_RESET"/>
+    <functioncall functionName="TIM_OCMODE_PWM1"/>
+    <functioncall functionName="TIM_OCNIDLESTATE_RESET"/>
+    <functioncall functionName="TIM_OCNPOLARITY_HIGH"/>
+    <functioncall functionName="TIM_OCPOLARITY_HIGH"/>
+    <functioncall functionName="TIM_OSSI_DISABLE"/>
+    <functioncall functionName="TIM_OSSR_DISABLE"/>
+    <functioncall functionName="TIM_SLAVEMODE_RESET"/>
+    <functioncall functionName="TIM_TRGO2_RESET"/>
+    <functioncall functionName="TIM_TRGO_RESET"/>
+    <functioncall functionName="TIM_TRGO_UPDATE"/>
+    <functioncall functionName="TIM_TS_TI1FP1"/>
+    <functioncall functionName="UART_ADVFEATURE_NO_INIT"/>
+    <functioncall functionName="UART_HWCONTROL_NONE"/>
+    <functioncall functionName="UART_MODE_TX_RX"/>
+    <functioncall functionName="UART_ONE_BIT_SAMPLE_DISABLE"/>
+    <functioncall functionName="UART_OVERSAMPLING_16"/>
+    <functioncall functionName="UART_PARITY_NONE"/>
+    <functioncall functionName="UART_PRESCALER_DIV1"/>
+    <functioncall functionName="UART_RXFIFO_THRESHOLD_1_8"/>
+    <functioncall functionName="UART_STOPBITS_1"/>
+    <functioncall functionName="UART_TXFIFO_THRESHOLD_1_8"/>
+    <functioncall functionName="UART_WORDLENGTH_8B"/>
+    <functioncall functionName="USART2"/>
+    <functioncall functionName="__HAL_RCC_DMA1_CLK_ENABLE"/>
+    <functioncall functionName="__HAL_RCC_DMAMUX1_CLK_ENABLE"/>
+    <functioncall functionName="__HAL_RCC_GPIOA_CLK_ENABLE"/>
+    <functioncall functionName="__HAL_RCC_GPIOB_CLK_ENABLE"/>
+    <functioncall functionName="__HAL_RCC_GPIOC_CLK_ENABLE"/>
+    <functioncall functionName="__HAL_RCC_GPIOF_CLK_ENABLE"/>
+    <functioncall functionName="__HAL_TIM_GET_COUNTER"/>
+    <functioncall functionName="__disable_irq"/>
+    <functioncall functionName="average_processing_time"/>
+    <functioncall functionName="break"/>
+    <functioncall functionName="c"/>
+    <functioncall functionName="char"/>
+    <functioncall functionName="default"/>
+    <functioncall functionName="eeprom_empty"/>
+    <functioncall functionName="error_position_deg"/>
+    <functioncall functionName="error_velocity_dps"/>
+    <functioncall functionName="fabsf"/>
+    <functioncall functionName="factory_reset_eeprom_regs"/>
+    <functioncall functionName="fconstrain"/>
+    <functioncall functionName="float"/>
+    <functioncall functionName="fminf"/>
+    <functioncall functionName="goal_flux_current_mA"/>
+    <functioncall functionName="goal_position_deg"/>
+    <functioncall functionName="goal_torque_current_mA"/>
+    <functioncall functionName="goal_velocity_dps"/>
+    <functioncall functionName="hadc"/>
+    <functioncall functionName="hadc1"/>
+    <functioncall functionName="hadc2"/>
+    <functioncall functionName="hcordic"/>
+    <functioncall functionName="hopamp1"/>
+    <functioncall functionName="hopamp2"/>
+    <functioncall functionName="hopamp3"/>
+    <functioncall functionName="htim"/>
+    <functioncall functionName="htim1"/>
+    <functioncall functionName="htim4"/>
+    <functioncall functionName="htim6"/>
+    <functioncall functionName="huart2"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="int16_t"/>
+    <functioncall functionName="last_time_us"/>
+    <functioncall functionName="load_eeprom_regs"/>
+    <functioncall functionName="multimode"/>
+    <functioncall functionName="packet_handler"/>
+    <functioncall functionName="phase_synchro_offset_rad"/>
+    <functioncall functionName="pid_position"/>
+    <functioncall functionName="pid_process_antiwindup_clamp_with_ff"/>
+    <functioncall functionName="pid_reset"/>
+    <functioncall functionName="pid_velocity"/>
+    <functioncall functionName="present_time_us"/>
+    <functioncall functionName="reg_control_mode"/>
+    <functioncall functionName="reg_max_current_ma"/>
+    <functioncall functionName="reg_max_position_deg"/>
+    <functioncall functionName="reg_max_velocity_dps"/>
+    <functioncall functionName="reg_min_position_deg"/>
+    <functioncall functionName="reset_ram_regs"/>
+    <functioncall functionName="sBreakDeadTimeConfig"/>
+    <functioncall functionName="sClockSourceConfig"/>
+    <functioncall functionName="sConfig"/>
+    <functioncall functionName="sConfigIC"/>
+    <functioncall functionName="sConfigOC"/>
+    <functioncall functionName="sMasterConfig"/>
+    <functioncall functionName="sSlaveConfig"/>
+    <functioncall functionName="serial"/>
+    <functioncall functionName="setpoint_flux_current_mA"/>
+    <functioncall functionName="setpoint_torque_current_mA"/>
+    <functioncall functionName="switch"/>
+    <functioncall functionName="uint16_t"/>
+    <functioncall functionName="uint8_t"/>
+    <functioncall functionName="while"/>
+  </FileInfo>
+</analyzerinfo>

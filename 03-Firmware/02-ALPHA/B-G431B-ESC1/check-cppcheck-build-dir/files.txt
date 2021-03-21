@@ -1,0 +1,14 @@
+control_table.a1::C:/GitHub/FOC/B-G431B-ESC1/Core/Src/control_table.c
+eeprom.a1::C:/GitHub/FOC/B-G431B-ESC1/Core/Src/eeprom.c
+foc.a1::C:/GitHub/FOC/B-G431B-ESC1/Core/Src/foc.c
+main.a1::C:/GitHub/FOC/B-G431B-ESC1/Core/Src/main.c
+math_tool.a1::C:/GitHub/FOC/B-G431B-ESC1/Core/Src/math_tool.c
+pic.a1::C:/GitHub/FOC/B-G431B-ESC1/Core/Src/pic.c
+position_sensor.a1::C:/GitHub/FOC/B-G431B-ESC1/Core/Src/position_sensor.c
+protocol.a1::C:/GitHub/FOC/B-G431B-ESC1/Core/Src/protocol.c
+serial.a1::C:/GitHub/FOC/B-G431B-ESC1/Core/Src/serial.c
+stm32g4xx_hal_msp.a1::C:/GitHub/FOC/B-G431B-ESC1/Core/Src/stm32g4xx_hal_msp.c
+stm32g4xx_it.a1::C:/GitHub/FOC/B-G431B-ESC1/Core/Src/stm32g4xx_it.c
+syscalls.a1::C:/GitHub/FOC/B-G431B-ESC1/Core/Src/syscalls.c
+sysmem.a1::C:/GitHub/FOC/B-G431B-ESC1/Core/Src/sysmem.c
+system_stm32g4xx.a1::C:/GitHub/FOC/B-G431B-ESC1/Core/Src/system_stm32g4xx.c

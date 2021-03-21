@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="968516207">
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="SystemInit" lineNumber="162"/>
+    <functiondecl functionName="SystemCoreClockUpdate" lineNumber="213"/>
+    <functiondecl functionName="SystemInit" lineNumber="162"/>
+    <functiondecl functionName="SystemCoreClockUpdate" lineNumber="213"/>
+    <functioncall functionName="break"/>
+    <functioncall functionName="default"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="pllm"/>
+    <functioncall functionName="pllr"/>
+    <functioncall functionName="switch"/>
+  </FileInfo>
+</analyzerinfo>

@@ -1,0 +1,136 @@
+<?xml version="1.0"?>
+<analyzerinfo checksum="1245229639">
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;absolute_position_rad&apos; shadows outer variable" verbose="Local variable &apos;absolute_position_rad&apos; shadows outer variable" cwe="398" hash="10952497990498727287">
+            <location file0="C:\GitHub\FOC\B-G431B-ESC1\Core\Src\foc.c" file="C:\GitHub\FOC\B-G431B-ESC1\Core\Src\foc.c" line="453" column="15" info="Shadow variable"/>
+            <location file0="C:\GitHub\FOC\B-G431B-ESC1\Core\Src\foc.c" file="C:\GitHub\FOC\B-G431B-ESC1\Core\Src\foc.c" line="66" column="14" info="Shadowed declaration"/>
+            <symbol>absolute_position_rad</symbol>
+        </error>
+        <error id="shadowVariable" severity="style" msg="Local variable &apos;absolute_position_rad&apos; shadows outer variable" verbose="Local variable &apos;absolute_position_rad&apos; shadows outer variable" cwe="398" hash="14002981511352956778">
+            <location file0="C:\GitHub\FOC\B-G431B-ESC1\Core\Src\foc.c" file="C:\GitHub\FOC\B-G431B-ESC1\Core\Src\foc.c" line="504" column="15" info="Shadow variable"/>
+            <location file0="C:\GitHub\FOC\B-G431B-ESC1\Core\Src\foc.c" file="C:\GitHub\FOC\B-G431B-ESC1\Core\Src\foc.c" line="66" column="14" info="Shadowed declaration"/>
+            <symbol>absolute_position_rad</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;present_time_us&apos; is assigned a value that is never used." verbose="Variable &apos;present_time_us&apos; is assigned a value that is never used." cwe="563" hash="8883290787592210418">
+            <location file0="C:\GitHub\FOC\B-G431B-ESC1\Core\Src\foc.c" file="C:\GitHub\FOC\B-G431B-ESC1\Core\Src\foc.c" line="451" column="34"/>
+            <symbol>present_time_us</symbol>
+        </error>
+        <error id="unreadVariable" severity="style" msg="Variable &apos;present_time_us&apos; is assigned a value that is never used." verbose="Variable &apos;present_time_us&apos; is assigned a value that is never used." cwe="563" hash="2425984303354163865">
+            <location file0="C:\GitHub\FOC\B-G431B-ESC1\Core\Src\foc.c" file="C:\GitHub\FOC\B-G431B-ESC1\Core\Src\foc.c" line="502" column="34"/>
+            <symbol>present_time_us</symbol>
+        </error>
+  <FileInfo check="ctu">
+<function-call call-id="C:/GitHub/FOC/B-G431B-ESC1/Core/Inc/pid.h:26:6" call-funcname="pid_reset" call-argnr="1" file="C:/GitHub/FOC/B-G431B-ESC1/Core/Src/foc.c" line="102" col="11" call-argexpr="&pid_flux" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="C:/GitHub/FOC/B-G431B-ESC1/Core/Inc/pid.h:26:6" call-funcname="pid_reset" call-argnr="1" file="C:/GitHub/FOC/B-G431B-ESC1/Core/Src/foc.c" line="103" col="11" call-argexpr="&pid_torque" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="C:/GitHub/FOC/B-G431B-ESC1/Core/Inc/cordic.h:51:19" call-funcname="API_CORDIC_Processor_Update" call-argnr="2" file="C:/GitHub/FOC/B-G431B-ESC1/Core/Src/foc.c" line="156" col="30" call-argexpr="&cosine_theta" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="C:/GitHub/FOC/B-G431B-ESC1/Core/Inc/cordic.h:51:19" call-funcname="API_CORDIC_Processor_Update" call-argnr="3" file="C:/GitHub/FOC/B-G431B-ESC1/Core/Src/foc.c" line="156" col="30" call-argexpr="&sine_theta" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="C:/GitHub/FOC/B-G431B-ESC1/Core/Inc/pid.h:28:7" call-funcname="pid_process_antiwindup_clamp_with_ff" call-argnr="1" file="C:/GitHub/FOC/B-G431B-ESC1/Core/Src/foc.c" line="181" col="56" call-argexpr="&pid_flux" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="C:/GitHub/FOC/B-G431B-ESC1/Core/Inc/pid.h:28:7" call-funcname="pid_process_antiwindup_clamp_with_ff" call-argnr="1" file="C:/GitHub/FOC/B-G431B-ESC1/Core/Src/foc.c" line="199" col="56" call-argexpr="&pid_torque" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="C:/GitHub/FOC/B-G431B-ESC1/Core/Inc/cordic.h:51:19" call-funcname="API_CORDIC_Processor_Update" call-argnr="2" file="C:/GitHub/FOC/B-G431B-ESC1/Core/Src/foc.c" line="457" col="30" call-argexpr="&cosine_theta" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="C:/GitHub/FOC/B-G431B-ESC1/Core/Inc/cordic.h:51:19" call-funcname="API_CORDIC_Processor_Update" call-argnr="3" file="C:/GitHub/FOC/B-G431B-ESC1/Core/Src/foc.c" line="457" col="30" call-argexpr="&sine_theta" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="C:/GitHub/FOC/B-G431B-ESC1/Core/Inc/serial.h:79:5" call-funcname="HAL_Serial_Print" call-argnr="1" file="C:/GitHub/FOC/B-G431B-ESC1/Core/Src/foc.c" line="490" col="19" call-argexpr="&serial" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="C:/GitHub/FOC/B-G431B-ESC1/Core/Inc/cordic.h:51:19" call-funcname="API_CORDIC_Processor_Update" call-argnr="2" file="C:/GitHub/FOC/B-G431B-ESC1/Core/Src/foc.c" line="508" col="30" call-argexpr="&cosine_theta" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="C:/GitHub/FOC/B-G431B-ESC1/Core/Inc/cordic.h:51:19" call-funcname="API_CORDIC_Processor_Update" call-argnr="3" file="C:/GitHub/FOC/B-G431B-ESC1/Core/Src/foc.c" line="508" col="30" call-argexpr="&sine_theta" call-argvaluetype="7" call-argvalue="4"/><function-call call-id="C:/GitHub/FOC/B-G431B-ESC1/Core/Inc/serial.h:79:5" call-funcname="HAL_Serial_Print" call-argnr="1" file="C:/GitHub/FOC/B-G431B-ESC1/Core/Src/foc.c" line="541" col="19" call-argexpr="&serial" call-argvaluetype="7" call-argvalue="0"/><function-call call-id="C:/GitHub/FOC/B-G431B-ESC1/Core/Inc/serial.h:79:5" call-funcname="HAL_Serial_Print" call-argnr="1" file="C:/GitHub/FOC/B-G431B-ESC1/Core/Src/foc.c" line="568" col="18" call-argexpr="&serial" call-argvaluetype="7" call-argvalue="0"/>  </FileInfo>
+  <FileInfo check="CheckUnusedFunctions">
+    <functiondecl functionName="API_FOC_Init" lineNumber="79"/>
+    <functiondecl functionName="API_FOC_Update_Torque_Closed_Loop" lineNumber="111"/>
+    <functiondecl functionName="API_FOC_Get_Present_Current_SQ" lineNumber="362"/>
+    <functiondecl functionName="API_FOC_Get_Present_Position" lineNumber="367"/>
+    <functiondecl functionName="API_FOC_Get_Present_Position_Multi" lineNumber="372"/>
+    <functiondecl functionName="API_FOC_Get_Present_Velocity" lineNumber="377"/>
+    <functiondecl functionName="API_FOC_Get_Present_Torque_Current" lineNumber="382"/>
+    <functiondecl functionName="API_FOC_Get_Present_Flux_Current" lineNumber="387"/>
+    <functiondecl functionName="API_FOC_It" lineNumber="393"/>
+    <functiondecl functionName="API_FOC_Calibrate" lineNumber="437"/>
+    <functioncall functionName="ADC1_DMA"/>
+    <functioncall functionName="ADC2_DMA"/>
+    <functioncall functionName="API_AS5048A_Position_Sensor_Get_DPS"/>
+    <functioncall functionName="API_AS5048A_Position_Sensor_Get_Multiturn_Radians"/>
+    <functioncall functionName="API_AS5048A_Position_Sensor_Get_Radians"/>
+    <functioncall functionName="API_AS5048A_Position_Sensor_Get_Radians_Estimation"/>
+    <functioncall functionName="API_AS5048A_Position_Sensor_Init"/>
+    <functioncall functionName="API_CORDIC_Processor_Init"/>
+    <functioncall functionName="API_CORDIC_Processor_Update"/>
+    <functioncall functionName="CCRa"/>
+    <functioncall functionName="CCRb"/>
+    <functioncall functionName="CCRc"/>
+    <functioncall functionName="CORDIC_FUNCTION_COSINE"/>
+    <functioncall functionName="CORDIC_INSIZE_32BITS"/>
+    <functioncall functionName="CORDIC_NBREAD_2"/>
+    <functioncall functionName="CORDIC_NBWRITE_1"/>
+    <functioncall functionName="CORDIC_OUTSIZE_32BITS"/>
+    <functioncall functionName="CORDIC_PRECISION_6CYCLES"/>
+    <functioncall functionName="CORDIC_SCALE_0"/>
+    <functioncall functionName="FLOAT_RADIANS_TO_Q31"/>
+    <functioncall functionName="Flux_Ki"/>
+    <functioncall functionName="Flux_Kp"/>
+    <functioncall functionName="HAL_ADC_Start_DMA"/>
+    <functioncall functionName="HAL_CORDIC_Calculate"/>
+    <functioncall functionName="HAL_CORDIC_Configure"/>
+    <functioncall functionName="HAL_Delay"/>
+    <functioncall functionName="HAL_GetTick"/>
+    <functioncall functionName="HAL_OPAMP_Start"/>
+    <functioncall functionName="HAL_Serial_Print"/>
+    <functioncall functionName="HAL_TIMEx_PWMN_Start"/>
+    <functioncall functionName="HAL_TIM_PWM_Start"/>
+    <functioncall functionName="InBuff"/>
+    <functioncall functionName="OutBuff"/>
+    <functioncall functionName="TIM_CHANNEL_1"/>
+    <functioncall functionName="TIM_CHANNEL_2"/>
+    <functioncall functionName="TIM_CHANNEL_3"/>
+    <functioncall functionName="Torque_Ki"/>
+    <functioncall functionName="Torque_Kp"/>
+    <functioncall functionName="Va"/>
+    <functioncall functionName="Valpha"/>
+    <functioncall functionName="Vb"/>
+    <functioncall functionName="Vc"/>
+    <functioncall functionName="Vneutral"/>
+    <functioncall functionName="WRAP_TO_PI"/>
+    <functioncall functionName="__HAL_TIM_GET_AUTORELOAD"/>
+    <functioncall functionName="__HAL_TIM_GET_COUNTER"/>
+    <functioncall functionName="__HAL_TIM_IS_TIM_COUNTING_DOWN"/>
+    <functioncall functionName="__HAL_TIM_SET_COMPARE"/>
+    <functioncall functionName="angle_radians"/>
+    <functioncall functionName="config"/>
+    <functioncall functionName="cosine_theta"/>
+    <functioncall functionName="current_samples"/>
+    <functioncall functionName="duration_ms"/>
+    <functioncall functionName="error_Id"/>
+    <functioncall functionName="error_Iq"/>
+    <functioncall functionName="fconstrain"/>
+    <functioncall functionName="float"/>
+    <functioncall functionName="fmaxf"/>
+    <functioncall functionName="fminf"/>
+    <functioncall functionName="fmodf"/>
+    <functioncall functionName="for"/>
+    <functioncall functionName="hadc1"/>
+    <functioncall functionName="hadc2"/>
+    <functioncall functionName="hcordic"/>
+    <functioncall functionName="hopamp1"/>
+    <functioncall functionName="hopamp2"/>
+    <functioncall functionName="hopamp3"/>
+    <functioncall functionName="htim1"/>
+    <functioncall functionName="htim4"/>
+    <functioncall functionName="htim6"/>
+    <functioncall functionName="if"/>
+    <functioncall functionName="index"/>
+    <functioncall functionName="int"/>
+    <functioncall functionName="int16_t"/>
+    <functioncall functionName="memcpy"/>
+    <functioncall functionName="motor_current_input_adc"/>
+    <functioncall functionName="motor_current_sample_adc"/>
+    <functioncall functionName="phase_rad"/>
+    <functioncall functionName="phase_rad_ccw"/>
+    <functioncall functionName="phase_rad_cw"/>
+    <functioncall functionName="phase_synchro_offset_rad"/>
+    <functioncall functionName="pid_flux"/>
+    <functioncall functionName="pid_process_antiwindup_clamp_with_ff"/>
+    <functioncall functionName="pid_reset"/>
+    <functioncall functionName="pid_torque"/>
+    <functioncall functionName="powf"/>
+    <functioncall functionName="present_Id_filtered"/>
+    <functioncall functionName="present_Iq_filtered"/>
+    <functioncall functionName="return"/>
+    <functioncall functionName="serial"/>
+    <functioncall functionName="setpoint_flux_current_mA"/>
+    <functioncall functionName="setpoint_torque_current_mA"/>
+    <functioncall functionName="sine_theta"/>
+    <functioncall functionName="sizeof"/>
+    <functioncall functionName="sqrtf"/>
+    <functioncall functionName="t_begin"/>
+    <functioncall functionName="t_tp"/>
+    <functioncall functionName="theta"/>
+    <functioncall functionName="theta_rad"/>
+    <functioncall functionName="uint16_t"/>
+    <functioncall functionName="while"/>
+  </FileInfo>
+</analyzerinfo>
