@@ -79,7 +79,7 @@ HAL_Serial_Handler serial;
 static FDCAN_RxHeaderTypeDef RxHeader;
 static uint8_t RxData[8];
 static FDCAN_TxHeaderTypeDef TxHeader;
-//static uint8_t TxData[8];
+static uint8_t TxData[8];
 
 /* USER CODE END PV */
 
@@ -161,7 +161,7 @@ static void FDCAN_Config(void)
   }
 
   /* Prepare Tx Header */
-  TxHeader.Identifier = 0x000;
+  TxHeader.Identifier = 0x001;
   TxHeader.IdType = FDCAN_STANDARD_ID;
   TxHeader.TxFrameType = FDCAN_DATA_FRAME;
   TxHeader.DataLength = FDCAN_DLC_BYTES_8;
@@ -279,6 +279,16 @@ int main(void)
 					  regs[REG_GOAL_TORQUE_CURRENT_MA_L] = RxData[6];
 					  regs[REG_GOAL_TORQUE_CURRENT_MA_H] = RxData[7];
 				  }
+				  // then reply by a status frame
+				  TxData[0] = regs[REG_ID];
+				  TxData[1] = regs[REG_HARDWARE_ERROR_STATUS];
+				  TxData[2] = regs[REG_PRESENT_POSITION_DEG_L];
+				  TxData[3] = regs[REG_PRESENT_POSITION_DEG_H];
+				  TxData[4] = regs[REG_PRESENT_TORQUE_CURRENT_MA_L];
+				  TxData[5] = regs[REG_PRESENT_TORQUE_CURRENT_MA_H];
+				  TxData[6] = regs[REG_PRESENT_VOLTAGE];
+				  TxData[7] = regs[REG_PRESENT_TEMPERATURE];
+				  HAL_FDCAN_AddMessageToTxFifoQ(&hfdcan1,&TxHeader,TxData);
 			  }
 		  }
 	  }
@@ -325,6 +335,8 @@ int main(void)
 				setpoint_velocity_dps = 0.0f;
 				last_setpoint_velocity_dps = 0.0f;
 				setpoint_torque_current_mA = 0.0f;
+				// set setpoint_position_deg to avoid glitch
+				setpoint_position_deg = RADIANS_TO_DEGREES(API_AS5048A_Position_Sensor_Get_Multiturn_Radians());
 			}
 			{
 				// compute position setpoint from goal and EEPROM velocity limit
