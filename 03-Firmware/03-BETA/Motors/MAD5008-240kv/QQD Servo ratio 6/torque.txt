@@ -1,0 +1,9 @@
+lift about 6.3kg with a 10cm servo horn ==> servo torque > 60kg.cm ~6Nm ==> motor torque > 1N.m
+
+4S LIPO 16V peak current = 8A
+
+FAN on ESC
+
+
+
+
